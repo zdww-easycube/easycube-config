@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Shanglin-Lei <https://github.com/Shanglin-Lei>",
   "description": "提供一些 EasyCube 打包自定义组件和构建项目时会用到的配置",
-  "homepage": "",
+  "homepage": "https://github.com/zdww-easycube/easycube-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zdww-easycube/easycube-config.git"
