@@ -1,0 +1,31 @@
+{
+  "name": "easycube-config",
+  "version": "0.1.0",
+  "author": "Shanglin-Lei <https://github.com/Shanglin-Lei>",
+  "description": "提供一些 EasyCube 打包自定义组件和构建项目时会用到的配置",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdww-easycube/easycube-config.git"
+  },
+  "keywords": [
+    "zdww",
+    "easycube",
+    "config"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.mjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "types": "./index.d.ts"
+    }
+  },
+  "files": [
+    "./index.mjs",
+    "./index.d.ts"
+  ]
+}
