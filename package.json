@@ -22,7 +22,8 @@
     ".": {
       "import": "./index.js",
       "types": "./index.d.ts",
-      "require": "./index.js"
+      "require": "./index.cjs",
+      "default": "./index.js"
     }
   }
 }
