@@ -1,6 +1,6 @@
 {
   "name": "easycube-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Shanglin-Lei <https://github.com/Shanglin-Lei>",
   "description": "提供一些 EasyCube 打包自定义组件和构建项目时会用到的配置",
   "homepage": "https://github.com/zdww-easycube/easycube-config#readme",
@@ -15,17 +15,14 @@
   ],
   "license": "MIT",
   "type": "module",
-  "main": "./index.mjs",
-  "module": "./index.mjs",
+  "main": "./index.js",
+  "module": "./index.js",
   "types": "./index.d.ts",
   "exports": {
     ".": {
-      "import": "./index.mjs",
-      "types": "./index.d.ts"
+      "import": "./index.js",
+      "types": "./index.d.ts",
+      "require": "./index.js"
     }
-  },
-  "files": [
-    "./index.mjs",
-    "./index.d.ts"
-  ]
+  }
 }
